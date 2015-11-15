@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Finite State ATM</title>
+  <link rel="stylesheet" type="text/css" href="css/fsm.css">
+</head>
+<body>
+
+<div id="atmDisplay">
+  <img id = "idle" src="img/idle.jpeg"/>
+  <img id = "active" src="img/active.jpeg"/>
+  <img id = "depositScreen" src="img/deposit.jpeg"/>
+  <img id = "withdrawScreen" src="img/withdraw.jpeg"/>
+  <div class="output"><p id = "output"></p></div>
+</div>
+
+<div class="userInterface">
+  <div class="input">
+    <button id="acctBalance">Account Balance</button>
+    <button id="deposit">Deposit</button>
+    <button id="withdraw">Withdrawal</button>
+  </div>
+  <fieldset>
+    <legend>Amount Withdraw</legend>
+    <input id="cash" type="text" placeholder="Amount">
+  </fieldset>
+</div>
+
+<div class="events">
+  <h2>Events:</h2>
+  <button id="card">Card</button>
+  <button id= "time">Time</button>
+  <button id="finish">Finish Interacting with ATM</button>
+</div>
+
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/Jfsm.js" type="text/javascript"></script>
+</body>
+</html>

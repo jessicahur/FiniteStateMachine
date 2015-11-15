@@ -1,0 +1,54 @@
+body{
+  background-color: white;
+}
+
+#atmDisplay{
+  margin: 50px auto 0 auto;
+}
+
+img{
+  display: block;
+  width:25%;
+  margin: 0 auto;
+  border: solid 1px black;
+}
+
+.userInterface{
+  width: 25%;
+  text-align: center;
+  border: solid 1px black;
+  background-color: white;
+  margin: auto;
+}
+
+#active,#depositScreen, #withdrawScreen{
+  display: none;
+}
+
+.output{
+  width: 50%;
+  margin: 10px auto;
+}
+
+.events{
+  border: solid 1px black;
+  text-align: center;
+  width: 25%;
+  margin: 30px auto 50px auto;
+}
+
+button{
+  margin: 0;
+}
+
+.userInterface{
+  display: none;
+}
+
+#output{
+  text-align: left;
+  overflow: scroll;
+  height: 10%;
+  width: 50%;
+  margin: auto;
+}
